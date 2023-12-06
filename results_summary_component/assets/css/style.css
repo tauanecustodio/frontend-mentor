@@ -9,10 +9,10 @@
     --color-base2: rgb(55, 48, 232);
     /* color cards */
     --color-background1: rgb(255, 246, 245);
-    --color-text1: rgb(251, 137, 150)
+    --color-text1: rgb(251, 137, 150);
     --color-hover-background1: rgba(255, 246, 245, 0.59);
     --color-background2: rgb(255, 250, 240);
-    --color-text2: rgb(250, 138, 151);
+    --color-text2: rgb(255, 176, 31);
     --color-hover-background2: rgba(255, 250, 240, 0.59);
     --color-background3: rgb(242, 250, 249);
     --color-text3: rgb(61, 171, 145);
