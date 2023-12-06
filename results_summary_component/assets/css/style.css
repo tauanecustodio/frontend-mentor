@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-text-gray: rgb(152, 162, 169);
+    --color-text-gray2: rgb(51, 55, 77);
+    --color-text-gray3: rgb(153, 162, 168);
+    --color-base1:rgb(98, 64, 252);
+    --color-base2: rgb(55, 48, 232);
+    /* color cards */
+    --color-background1: rgb(255, 246, 245);
+    --color-text1: rgb(251, 137, 150)
+    --color-hover-background1: rgba(255, 246, 245, 0.59);
+    --color-background2: rgb(255, 250, 240);
+    --color-text2: rgb(250, 138, 151);
+    --color-hover-background2: rgba(255, 250, 240, 0.59);
+    --color-background3: rgb(242, 250, 249);
+    --color-text3: rgb(61, 171, 145);
+    --color-hover-background3: rgba(243, 251, 250, 0.59);
+    --color-background4: rgb(242, 242, 252);
+    --color-text4: rgb(97, 100, 186);
+    --color-hover-background4: rgba(242, 242, 252, 0.59);
+}
+
+* {
+    margin: 0;
+    font-family: 'Hanken Grotesk';
+    font-size: 18px;
+}
+
+/* criar alinhamento com flex-box para reutilizar */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    border-radius: 25px;
+    box-shadow: 0 30px 35px -35px #6441FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-result, .section-summary {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* section result */
+
+.section-result {
+    background: linear-gradient(180deg, var(--color-base1), var(--color-base2));
+    border-radius: 25px;
+    color: var(--color-text-gray);
+    text-align: center;
+    width: 240px;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.section-result:hover {
+    scale: 1.03;
+}
+
+.title-result {
+    color: var(--color-text-gray);
+    font-size: 20px;
+}
+
+.circle-result {
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    background: linear-gradient(#4827D0, #4734F0);
+    border-radius: 50%;
+    color: var(--color-text-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle-result:hover {
+    scale: 1.1;
+}
+
+#result {
+    color: var(--color-white);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.section-result h2 {
+    color: var(--color-white);
+    font-size: 24px;
+}
+
+.section-result p:last-child {
+    font-size: 17px;
+}
+
+/* section summary */
+
+.section-summary {
+    width: 270px;
+    padding: 20px 35px;
+}
+
+.title-summary {
+    color: var(--color-text-gray2);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.section-summary section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-summary {
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.title-card {
+    display: flex;
+    gap: 10px;
+}
+
+.title-card h3 {
+    font-size: 16px;
+}
+
+.card-summary p {
+    color: var(--color-text-gray2);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-summary span {
+    color: var(--color-text-gray3);
+    font-size: 16px;
+}
+
+.card1 {
+    background-color: var(--color-background1);
+    color: var(--color-text1);
+}
+
+.card1:hover {
+    background-color: var(--color-hover-background1);
+}
+
+.card2 {
+    background-color: var(--color-background2);
+    color: var(--color-text2);
+}
+
+.card2:hover {
+    background-color: var(--color-hover-background2);
+}
+
+.card3 {
+    background-color: var(--color-background3);
+    color: var(--color-text3);
+}
+
+.card3:hover {
+    background-color: var(--color-hover-background3);
+}
+
+.card4 {
+    background-color: var(--color-background4);
+    color: var(--color-text4);
+}
+
+.card4:hover {
+    background-color: var(--color-hover-background4);
+}
+
+button {
+    background: linear-gradient(var(--color-base1), var(--color-base2));
+    text-align: center;
+    color: var(--color-white);
+    font-weight: 500;
+    padding: 12px 0px;
+    border-radius: 50px;
+    border: none;
+}
+
+button:hover {
+    background: var(--color-base1);
+    scale: 1.01;
+}
+
+/* responsive design */
+
+@media (max-width: 660px){
+    body {
+        display: block;
+    }
+    #container {
+        box-shadow: none;
+    }
+    .section-result {
+        border-radius: 0 0 25px 25px;
+    }
+}
