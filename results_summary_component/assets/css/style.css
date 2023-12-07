@@ -7,6 +7,7 @@
     --color-text-gray3: rgb(153, 162, 168);
     --color-base1:rgb(98, 64, 252);
     --color-base2: rgb(55, 48, 232);
+    --color-button: rgb(48, 59, 90);
     /* color cards */
     --color-background1: rgb(255, 246, 245);
     --color-text1: rgb(251, 137, 150);
@@ -39,7 +40,7 @@ body {
 
 #container {
     border-radius: 25px;
-    box-shadow: 0 30px 35px -35px #6441FD;
+    box-shadow: 15px 30px 35px -35px #6441FD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +190,7 @@ body {
 }
 
 button {
-    background: linear-gradient(var(--color-base1), var(--color-base2));
+    background-color: var(--color-button);
     text-align: center;
     color: var(--color-white);
     font-weight: 500;
@@ -199,7 +200,7 @@ button {
 }
 
 button:hover {
-    background: var(--color-base1);
+    background: linear-gradient(var(--color-base1), var(--color-base2));
     scale: 1.01;
 }
 
