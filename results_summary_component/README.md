@@ -6,43 +6,42 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  <!-- - [Links](#links) -->
+  - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Build with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
 
-### 🎯 The challenge
+### The challenge🎯
 
 Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### 🖼️ Screenshot
+### Screenshot📷
 
 ![Alt text](./screenshot.png)
 
-<!-- ### Links
+### Links💻
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+[Deploy no github pages](https://tauanecustodio.github.io/frontend_mentor/results_summary_component/)
 
-## 🛣️ My process
+## My process
 
-### ⚒️ Built with
+### Built with👩🏻‍💻
 
 - Semantic HTML5 markup;
 - CSS custom properties;
 - Flexbox;
 
-### 💡 What I learned
+### What I learned💡
 
 - I learned how to use the scale property to not break other elements when I want to increase the size on hover.
 - Organizing the colors before starting the project makes the process much easier, organizing them in the middle or at the end is very complicated.
 
-## 👤Author
+## Author
 
 - Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)
