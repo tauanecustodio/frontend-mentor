@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-Dark-cyan: hsl(158, 36%, 37%);
+    --color-Cream: hsl(30, 38%, 92%);
+    --color-Very-dark-blue: hsl(212, 21%, 14%);
+    --color-Dark-grayish-blue: hsl(228, 12%, 48%);
+    --color-White: hsl(0, 0%, 100%);
+
+    --font-primary-500: 500 18px 'Montserrat', sans-serif;
+    --font-primary-600: 600 18px 'Montserrat', sans-serif;
+    --font-primary-700: 700 18px 'Montserrat', sans-serif ;
+    --font-second-700: 700 2em 'Fraunces', serif;
+}
+
+body {
+    background: var(--color-Cream);
+    font: var(--font-primary-500);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-img-perfume, .card-img-perfume img {
+    width: 20em;
+    height: 30em;
+    border-radius: 12px 0 0 12px;
+}
+
+.card-about-perfume {
+    width: 16em;
+    height: 26em;
+    padding: 2em;
+    background: var(--color-White);
+    display: flex;
+    flex-direction: column;
+    gap: 1.9em;
+    border-radius: 0 12px 12px 0;
+}
+
+.logo {
+    color: var(--color-Dark-grayish-blue);
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+.title-perfume {
+    font: var(--font-second-700);
+    line-height: 1em;
+    width: 7em;
+}
+
+.about-perfume {
+    color: var(--color-Dark-grayish-blue);
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.price {
+    font: var(--font-second-700);
+    color: var(--color-Dark-cyan);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discount-price {
+    text-decoration: line-through;
+    font: var(--font-primary-500);
+    color: var(--color-Dark-grayish-blue);
+    font-size: 16px;
+}
+
+.button-add {
+    background: var(--color-Dark-cyan);
+    font: var(--font-primary-600);
+    color: var(--color-White);
+    padding: 18px 30px;
+    border-radius: 12px;
+    border: none;
+}
+
+.button-add img {
+    margin-right: 0.8em;
+}
+
+.button-add:hover {
+    background: var(--color-Very-dark-blue)
+}
+
+@media (max-width: 850px) {
+    main {
+        flex-direction: column;
+    }
+    .card-img-perfume, .card-img-perfume img {
+        width: 22em;
+        height: 16em;
+        border-radius: 12px 12px 0 0;
+    }
+    .card-about-perfume {
+        width: 18em;
+        height: 19em;
+        gap: 15px;
+        border-radius: 0 0 12px 12px;
+    }
+    .title-perfume {
+        width: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    :root {
+    --font-primary-500: 500 16px 'Montserrat', sans-serif;
+    --font-primary-600: 600 16px 'Montserrat', sans-serif;
+    --font-primary-700: 700 16px 'Montserrat', sans-serif ;
+    --font-second-700: 700 1.8em 'Fraunces', serif;
+    }
+    main {
+        padding: 1em 0;
+    }
+    .card-img-perfume, .card-img-perfume img {
+        width: 20em;
+    }
+    .card-about-perfume {
+        width: 18em;
+        height: 19em;
+        gap: 15px;
+        padding: 2em 1em 3em 1em;
+    }
+}
