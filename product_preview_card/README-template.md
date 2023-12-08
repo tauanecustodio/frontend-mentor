@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links💻
 
-- [Deploy - github pages](#)
+- [Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/product_preview_card/)
 
 ## My process
 

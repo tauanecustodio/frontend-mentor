@@ -92,6 +92,8 @@ main {
 
 .button-add img {
     margin-right: 0.8em;
+    width: 15px;
+    height: 16px;
 }
 
 .button-add:hover {
