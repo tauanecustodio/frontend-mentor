@@ -6,8 +6,8 @@
     --color-grayish-blue: hsl(220, 15%, 55%);
     --color-dark-blue: hsl(218, 44%, 22%);
 
-    --font-400: 400 15px 'Outfit';
-    --font-700: 700 23px 'Outfit';
+    --font-400: 400 15px 'Outfit', sans-serif
+    --font-700: 700 23px 'Outfit', sans-serif;
 }
 
 * {
