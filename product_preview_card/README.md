@@ -42,7 +42,7 @@ Users should be able to:
 ### What I learned💡
 
 - I learned how to use the ```<picture>``` tag;
-- I learned how to put sources in variables and change them with media queries.
+- I learned how to put fomts in variables and change them with media queries.
 
 ### Useful resources🔎
 
