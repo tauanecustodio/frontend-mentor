@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: hsl(233, 47%, 7%);
+    --card-bg: hsl(244, 38%, 16%);
+    --accent: hsla(277, 64%, 61%, 0.5);
+    --filter-img: hsla(277, 100%, 30%, 0.4);
+
+    --main-heading: hsl(0, 0%, 100%);
+    --stats: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-headings: hsla(0, 0%, 100%, 0.6);
+
+    /* font */
+    --font-paragraphs: 400 0.9em/1.7 'Inter', sans-serif;
+    --font-title: 700 2.2em 'Inter', sans-serif;
+    --font-data: 700 1.4em 'Inter', sans-serif;
+    --font-title-data: 400 0.6em/2 'Lexend Deca', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-height: 100%;
+    min-height: 100vh;
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-component {
+    margin: 1.5rem;
+    display: flex;
+}
+
+.about-section {
+    z-index: 2;
+    max-width: 550px;
+    background-color: var(--card-bg);
+    border-radius: 10px 0 0 10px;
+    padding: 4em 5em;
+}
+
+.title-card {
+    font: var(--font-title);
+    color: var(--main-heading);
+}
+
+.title-card span {
+    color: var(--accent);
+}
+
+p {
+    max-width: 350px;
+    font: var(--font-paragraphs);
+    color: var(--main-paragraph);
+    margin-top: 2em;
+}
+
+.stats {
+    max-width: 350px;
+    margin-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    font: var(--font-data);
+    color: var(--main-heading);
+}   
+
+.stats > li > span {
+    color: var(--stat-headings);
+    font: var(--font-title-data);
+    text-transform: uppercase;
+    margin-top: 0.3em;
+}
+
+/* image */
+
+.img-section {
+    max-width: 550px;
+    background-color: var(--accent);
+    border-radius: 0 10px 10px 0;
+}
+
+.img-section img {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.4;
+    filter: contrast(1.5);
+}
+
+/* responsividade */
+
+@media (max-width: 1160px) {
+    .card-component {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .about-section {
+        border-radius: 0 0 10px 10px;
+        position: relative;
+        top: -5px;
+    }
+    .img-section img, .img-section {
+        border-radius: 10px 10px 0 0;
+    }
+    .about-section {
+        padding: 3em 5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-section {
+        padding: 2em 1.5em;
+    }
+    .stats {
+        margin-top: 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+}
