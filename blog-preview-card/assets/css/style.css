@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 50%);
+    --color-black: hsl(0, 0%, 7%);
+
+    --font-title: 800 27px Figtree, sans-serif;
+    --font-paragraph: 500 18px/1.5 Figtree, sans-serif;
+    --font-filter: 900 16px Figtree, sans-serif;
+    --font-date: 700 15px Figtree, sans-serif;
+    --font-author: 800 17px Figtree, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 430px;
+    padding: 1.5em;
+    margin: 0 1.5em;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    border: 2px solid var(--color-black);
+    border-radius: 1.5em;
+    box-shadow: 9px 9px 0 0 var(--color-black);
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.8em;
+}
+
+.filter {
+    width: min-content;
+    background-color: var(--color-primary);
+    font: var(--font-filter);
+    color: var(--color-black);
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+}
+
+.date {
+    font: var(--font-date);
+    color: var(--color-black);
+}
+
+.title {
+    font: var(--font-title);
+    color: var(--color-black);
+}
+
+.title:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.description {
+    font: var(--font-paragraph);
+    color: var(--color-grey)
+}
+
+.author {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 35px;
+}
+
+.author-name {
+    font: var(--font-author);
+    color: var(--color-black);
+}
