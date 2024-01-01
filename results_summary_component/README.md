@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links💻
 
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/)
+[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/results_summary_component)
 
 ## My process
 
