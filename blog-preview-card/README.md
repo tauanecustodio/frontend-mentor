@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/blog_preview_card)
+- [Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/blog-preview-card)
 
 ## My process
 
