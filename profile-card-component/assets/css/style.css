@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --base-color: hsl(0, 100%, 100%);
+    --main-bg: hsl(185, 75%, 39%);
+    --color-text1: hsl(229, 23%, 23%);
+    --color-text2: hsl(227, 10%, 46%);
+    --color-divider: hsla(0, 0%, 59%, 0.3);
+
+    --font-name: 700 18px 'kumbh Sans', sans-serif;
+    --font-city: 400 16px 'kumbh Sans', sans-serif;
+    --font-age: 400 18px 'kumbh Sans', sans-serif;
+    --font-number-stats: 700 18px 'kumbh Sans', sans-serif;
+    --font-description-stats: 400 13px 'kumbh Sans', sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-bg);
+    position: relative;
+    overflow: hidden;
+}
+
+.pattern-top {
+    position: absolute;
+    top: -75%;
+    right: 50%;
+    z-index: 1;
+}
+
+.pattern-bottom {
+    position: absolute;
+    bottom: -75%;
+    left: 50%;
+    z-index: 1;
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 450px;
+    margin: 2em 1em;
+    background-color: var(--base-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    z-index: 2;
+}
+
+.bg-card {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid var(--base-color);
+    transform: translateY(-50%);
+}
+
+.about {
+    margin-top: -2em;
+}
+
+.name {
+    color: var(--color-text1);
+    font: var(--font-name);
+}
+
+.age {
+    margin-left: 0.5em;
+    font: var(--font-age);
+    color: var(--color-text2);
+}
+
+.city {
+    font: var(--font-city);
+    color: var(--color-text2);
+    margin: 1em 0 1.5em 0;
+}
+
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.01em solid var(--color-divider);
+    padding: 20px;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.number-stats {
+    color: var(--color-text1);
+    font: var(--font-number-stats);
+}
+
+.description-stats {
+    color: var(--color-text2);
+    font: var(--font-description-stats);
+    letter-spacing: 2px;
+}
