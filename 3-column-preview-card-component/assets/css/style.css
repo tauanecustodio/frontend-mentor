@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg1: hsl(31, 77%, 52%);
+    --color-bg2: hsl(184, 100%, 22%);
+    --color-bg3: hsl(179, 100%, 13%);
+    --color-base: hsl(0, 0%, 95%);
+    --color-paragraphs: hsla(0, 0%, 100%, 0.75);
+
+    --font-title: 700 36px 'Big Shoulders Display';
+    --font-paragraphs: 400 15px/1.5 'Lexend Deca';
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font: var(--font-title);
+    color: var(--color-base);
+    margin: 35px 0;
+}
+
+.paragraphs {
+    font: var(--font-paragraphs);
+    color: var(--color-paragraphs);
+}
+
+.card {
+    max-width: 310px;
+    padding: 50px;
+}
+
+.card1 {
+    background-color: var(--color-bg1);
+    border-radius: 8px 0 0 8px;
+}
+
+.card2 {
+    background-color: var(--color-bg2);
+}
+
+.card3 {
+    background-color: var(--color-bg3);
+    border-radius: 0 8px 8px 0;
+}
+
+.icon {
+    width: 72px;
+    height: 45px;
+}
+
+.more {
+    background-color: var(--color-base);
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 80px;
+    border: 2px solid var(--color-base);
+    font: var(--font-paragraphs);
+}
+
+.card1 > .more {
+    color: var(--color-bg1);
+}
+.card1 > .more:hover {
+    color: var(--color-base);
+    background-color: var(--color-bg1);
+}
+.card2 > .more {
+    color: var(--color-bg2);
+}
+.card2 > .more:hover {
+    color: var(--color-base);
+    background-color: var(--color-bg2);
+}
+.card3 > .more {
+    color: var(--color-bg3);
+}
+.card3 > .more:hover {
+    color: var(--color-base);
+    background-color: var(--color-bg3);
+}
+
+/* reponsive */
+
+@media (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        margin: 2em 0;
+    }
+    .card1 {
+        border-radius: 8px 8px 0 0;
+    }
+    .card3 {
+        border-radius: 0 0 8px 8px;
+    }
+    .more {
+        margin-top: 30px;
+    }
+}
