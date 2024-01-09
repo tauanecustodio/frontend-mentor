@@ -1,5 +1,5 @@
 # Frontend Mentor
-Projetos utilizando apenas HTML e CSS feitos a partir dos desafios do [Frontend Mentor](https://www.frontendmentor.io/home)
+Projetos utilizando HTML e CSS feitos a partir dos desafios do [Frontend Mentor](https://www.frontendmentor.io/home)
 
 ## 🌐 Projetos - HTML e CSS
 1. [Results Summary Component](results_summary_component)
@@ -12,3 +12,5 @@ Projetos utilizando apenas HTML e CSS feitos a partir dos desafios do [Frontend 
 8. [3 Column Preview Card Component](3-column-preview-card-component)
 9. [Profile Card Component](profile-card-component)
 10. [Social Proof Section Master](social-proof-section-master)
+11. [Single Price Grid Component](single-price-grid-component)
+12. [Four Card Feature Section](four-card-feature-section)
