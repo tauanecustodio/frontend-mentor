@@ -7,12 +7,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 
@@ -26,10 +24,6 @@ Users should be able to:
 ### Screenshot📷
 
 ![screenshot of the project on desktop and mobile](./screenshot.png)
-
-### Links💻
-
-- [Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/product_preview_card/)
 
 ## My process
 
@@ -47,7 +41,3 @@ Users should be able to:
 ### Useful resources🔎
 
 - [Youtube video - Imagens que se adaptam sozinhas](https://www.youtube.com/watch?v=cAgkwPWE4hU) - With this video I applied the HTML ```<picture>``` tag to make the images responsive
-
-## Author👤
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

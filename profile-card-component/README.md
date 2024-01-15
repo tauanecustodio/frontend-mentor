@@ -7,11 +7,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 
@@ -23,10 +21,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![Screenshot](screenshot.png)
 
-### Links
-
-- [Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/profile-card-component)
-
 ## My process
 
 ### Built with
@@ -35,7 +29,3 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

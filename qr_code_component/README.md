@@ -6,20 +6,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
 
 ## Overview
 
 ### Screenshot📷
 
 ![screenshot of the project on desktop](./screenshot.png)
-
-### Links💻
-
-- [Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/qr_code_component/)
 
 ## My process
 
@@ -28,7 +22,3 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

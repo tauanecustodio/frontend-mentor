@@ -7,12 +7,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,10 +23,6 @@ Users should be able to:
 
 ![screenshot](screenshot.png)
 
-### Links
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/single-price-grid-component)
-
 ## My process
 
 ### Built with
@@ -39,7 +31,3 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

@@ -6,11 +6,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Links](#links)
 - [My process](#my-process)
   - [Build with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
 
 ## Overview
 
@@ -25,10 +23,6 @@ Users should be able to:
 
 ![Alt text](./screenshot.png)
 
-### Links💻
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/results_summary_component)
-
 ## My process
 
 ### Built with👩🏻‍💻
@@ -41,7 +35,3 @@ Users should be able to:
 
 - I learned how to use the scale property to not break other elements when I want to increase the size on hover.
 - Organizing the colors before starting the project makes the process much easier, organizing them in the middle or at the end is very complicated.
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

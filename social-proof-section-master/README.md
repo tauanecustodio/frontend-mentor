@@ -7,17 +7,10 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
+  
 ## Overview
 
 ### The challenge
@@ -29,10 +22,6 @@ Users should be able to:
 ### Screenshot
 
 ![screenshot](screenshot.png)
-
-### Links
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/social-proof-section-master)
 
 ## My process
 
@@ -48,7 +37,3 @@ Users should be able to:
 
 - It was my first project using CSS Grid, I was able to test my knowledge and realize what I didn't already know;
 - I learned concepts behind ```background-image```: using 3 backgrounds at the same time, how to position them, etc.
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

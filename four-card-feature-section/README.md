@@ -4,17 +4,9 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Built with](#built-with)
 
 ### The challenge
 
@@ -26,12 +18,6 @@ Users should be able to:
 
 ![screenshot](screenshot.png)
 
-### Links
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/four-card-feature-section)
-
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -39,7 +25,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

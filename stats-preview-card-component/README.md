@@ -7,13 +7,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,10 +23,6 @@ Users should be able to:
 
 ![screenshot](./screenshot.png)
 
-### Links
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/stats-preview-card-component)
-
 ## My process
 
 ### Built with
@@ -42,7 +34,3 @@ Users should be able to:
 ### What I learned
 
 - This project was challenging, I had to do a lot of research to understand how to maintain symmetry between the text section and the image.
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

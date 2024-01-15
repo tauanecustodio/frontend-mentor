@@ -7,13 +7,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 
@@ -25,11 +23,8 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+
 ![](./screenshot.png)
-
-### Links
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/nft_preview_card_component)
 
 ## My process
 
@@ -51,7 +46,3 @@ I want to delve deeper into the possibilities of using the ```:hover``` element
 ### Useful resources
 
 - [How to Create an Image Overlay Hover Effects with CSS?](https://www.scaler.com/topics/css-hover-effects-image/) - This article helped me create the effect in the main image in which another image appears above
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)

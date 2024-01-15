@@ -7,11 +7,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
 
 
 ## Overview
@@ -27,10 +25,6 @@ Users should be able to:
 ![](./screenshot.jpg)
 ![results screenshot](screenshot.png)
 
-### Links
-
-[Deploy - github pages](https://tauanecustodio.github.io/frontend_mentor/order_summary_component)
-
 ## My process
 
 ### Built with
@@ -42,7 +36,3 @@ Users should be able to:
 ### What I learned
 
 - I learned how to make images responsive based on the size of the parent element, which will have a ```max-width``` and the image ```width: 100%```.
-
-## Author
-
-- Frontend Mentor - [@tauanecustodio](https://www.frontendmentor.io/profile/TauaneCustodio)
