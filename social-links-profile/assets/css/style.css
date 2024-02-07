@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --color-text: hsl(0, 0%, 100%);
+    --color-text2: hsl(75, 94%, 57%);
+    --color-button-bg: hsl(0, 0%, 20%);
+    --color-card-bg: hsl(0, 0%, 12%);
+    --color-bg: hsl(0, 0%, 8%);
+
+    --font-title: 600 24px/2 'Inter', sans-serif;
+    --font-subtitle: 500 14px 'Inter', sans-serif;
+    --font-button: 500 0.9rem 'Inter', sans-serif;
+    --font-paragraph: 300 0.9rem 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin: 1em;
+    padding: 2.5em;
+    background-color: var(--color-card-bg);
+    border-radius: 8px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.name {
+    color: var(--color-text);
+    font: var(--font-title);
+}
+
+.city {
+    text-align: center;
+    color: var(--color-text2);
+    font: var(--font-subtitle);
+}
+
+.about {
+    text-align: center;
+    color: var(--color-text);
+    font: var(--font-paragraph);
+    opacity: 0.8;
+}
+
+.button {
+    width: 300px;
+    display: block;
+    text-align: center;
+    background-color: var(--color-button-bg);
+    border-radius: 5px;
+    padding: 1em;
+    font: var(--font-button);
+    color: var(--color-text);
+}
+
+.button + .button {
+    margin-top: 1em;
+}
+
+.button:hover {
+    background-color: var(--color-text2);
+    color: var(--color-card-bg);
+    font-weight: 600;
+}
+
+@media (max-width: 430px) {
+    .button {
+        width: 250px;
+    }
+}
