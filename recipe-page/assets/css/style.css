@@ -2,29 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-}
-
-ul, ol {
-    margin-left: 18px;
 }
 
 :root {
-    --Nutmeg: hsl(14, 45%, 36%);
-    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --color-text-1: hsl(24, 5%, 18%);
+    --color-text-2: hsl(14, 45%, 36%);
+    --color-text-3: hsl(332, 51%, 32%);
+    --color-text-4: hsl(30, 10%, 34%);
 
     --color-main-bg: hsl(0, 0%, 100%);
     --color-body-bg: hsl(30, 54%, 90%);
     --color-time-bg: hsl(330, 100%, 98%);
-    --Light-Grey: hsl(30, 18%, 87%);
-    --Wenge-Brown: hsl(30, 10%, 34%);
-    --Dark-Charcoal: hsl(24, 5%, 18%);
 
-    --font-title: 400 28px 'Young serif', serif;
+    --color-divider: hsl(30, 18%, 87%);
+
+    --font-title: 400 2em/1 'Young serif', serif;
     --font-subtitles: 400 24px 'Young serif', serif;
-    --font-400-2: 400 16px 'Outfit', sans-serif;
-    --font-600: 600 16px 'Outfit', sans-serif;
-    --font-700: 700 16px 'Outfit', sans-serif;
+    --font-subtitles-2: 600 23px 'Outfit', sans-serif;
+    --font-text: 400 1.1em 'Outfit', sans-serif;
+    --font-text-2: 700 16px 'Outfit', sans-serif;
 }
 
 body {
@@ -32,15 +28,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Outfit';
+    font: var(--font-text);
+    color: var(--color-text-4);
 }
 
 main {
     background-color: var(--color-main-bg);
-    width: 400px;
+    width: 650px;
     padding: 2em;
-    border-radius: 0.5em;
-    margin: 3em;
+    border-radius: 0.8em;
+    margin: 3em 2em;
 }
 
 .cover-img {
@@ -50,22 +47,85 @@ main {
 
 .page-title {
     font: var(--font-title);
+    color: var(--color-text-1);
+}
+
+/* elements */
+
+.spacing {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .subtitle {
     font: var(--font-subtitles);
-    color: var(--Dark-Charcoal);
+    color: var(--color-text-2);
 }
+
+span {
+    font: var(--font-text-2);
+    color: var(--color-text-4);
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-divider);
+    margin: 0.4em 0;
+}
+
+li {
+    margin-left: 18px;
+    padding-left: 18px;
+}
+
+li + li {
+    margin-top: 0.5em;
+}
+
+li::marker {
+    color: var(--color-text-2);
+    font: var(--font-text-2);
+}
+
+/* highlighted section */
 
 .about-time {
     background: var(--color-time-bg);
+    padding: 1em;
+    border-radius: 0.5em;
 }
+
+.about-time h2 {
+    font: var(--font-subtitles-2);
+    color: var(--color-text-3);
+}
+
+/* nutrition table */
 
 .nutrition-table {
     width: 100%;
+    border-collapse: collapse;
     text-align: left;
 }
 
 .nutrition-table th, .nutrition-table td {
     width: 50%;
+    padding: 0.3em 0;
+}
+
+.nutrition-table th {
+    font: var(--font-text);
+    color: var(--color-text-4);
+    margin-left: 5px;
+}
+
+.nutrition-table td {
+    font: var(--font-text-2);
+    color: var(--color-text-2);
+}
+
+tr + tr {
+    border-top: 1px solid var(--color-divider)
 }
