@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(257, 40%, 49%);
+    --secondary-color: hsl(300, 69%, 71%);
+    --color-base: hsl(0, 0%, 100%);
+    --font-title: 600 1.5em "Poppins", sans-serif;
+    --font-text: 400 1.05em "Open Sans", sans-serif;
+    --font-button: 500 0.8em "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background: url('../images/bg-mobile.svg'), var(--primary-color);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--color-base);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 1.7em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.header img {
+    width: 8.2em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4em;
+}
+
+.main section {
+    max-width: 540px;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.content-section h1 {
+    font: var(--font-title);
+}
+
+.content-section p {
+    font: var(--font-text);
+    margin: 1em 0 1.7em 0;
+}
+
+.content-section button {
+    background-color: var(--color-base);
+    margin: 0 auto;
+    padding: 0.7em 5em;
+    font: var(--font-button);
+    color: var(--primary-color);
+    border-radius: 2em;
+    border: none;
+}
+
+.content-section button:hover {
+    background-color: var(--secondary-color);
+    color: var(--color-base);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer i {
+    width: 2em;
+    font-size: 1em;
+    color: var(--color-base);
+    border: 1px solid var(--color-base);
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.footer i:hover {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+@media (min-width: 1000px) {
+    :root {
+        --font-title: 600 2.2em "Poppins", sans-serif;
+        --font-text: 400 1.3em "Open Sans", sans-serif;
+        --font-button: 400 1em "Poppins", sans-serif;
+    }
+    body {
+        min-height: 100vh;
+        background: url('../images/bg-desktop.svg'), var(--primary-color);
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-position: static;
+    }
+    .container {
+        max-width: 1200px;
+        gap: 3em;
+        margin: 4em;
+    }
+    .header img {
+        width: 11em;
+    }
+    .main {
+        text-align: start;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content-section {
+        width: 40%;
+    }
+    .content-section button {
+        margin: 0;
+    }
+    .footer {
+        justify-content: end;
+    } 
+}
