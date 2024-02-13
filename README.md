@@ -16,3 +16,4 @@ Projetos utilizando HTML e CSS feitos a partir dos desafios do [Frontend Mentor]
 12. [Four Card Feature Section](four-card-feature-section)
 13. [Social Links Profile](social-links-profile)
 14. [Recipe Page](recipe-page)
+15. [Huddle Landing Page](huddle-landing-page)
