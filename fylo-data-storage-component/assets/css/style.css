@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --primary-color: hsl(228, 56%, 26%);
+    --secondary-color: hsl(229, 57%, 11%);
+    --color-gradient1: hsl(6, 100%, 80%);
+    --color-gradient2: hsl(335, 100%, 65%);
+
+    --color-text: hsl(243, 100%, 93%);
+    --color-text2: hsl(229, 7%, 55%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/bg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+/* section - img */
+
+.imgs-section {
+    width: 100%;
+    max-width: 340px;
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: var(--primary-color);
+    border-radius: 10px 100px 10px 10px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.icons-div {
+    display: flex;
+    gap: 1em;
+}
+
+.img-icon-container {
+    height: 50px;
+    width: 50px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section - text */
+
+.about-section {
+    width: 100%;
+    max-width: 600px;
+    padding: 1.5em 2.5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.about-section p {
+    font-size: 14px;
+    color: var(--color-text);
+    text-align: center;
+}
+
+#number-gb {
+    font-weight: 700;
+}
+
+#total-bar {
+    width: 100%;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+}
+
+#used-bar {
+    position: relative;
+    width: 81%;
+    height: 13px;
+    background: linear-gradient(90deg, var(--color-gradient1), var(--color-gradient2));
+    border-radius: 8px;
+    margin-left: 2px;
+}
+
+#used-bar::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-text);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+
+#total-numbers-gb {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-text);
+    padding-bottom: 3em;
+}
+
+#gb-used {
+    width: max-content;
+    background-color: var(--color-text);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 0.8em 1.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#gb-used span:nth-of-type(1) {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: var(--secondary-color);    
+}
+
+#gb-used span:nth-of-type(2) {
+    font-size: 0.8em;
+    color: var(--color-text2);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1000px) {
+    body {
+        background: url('../images/bg-desktop.png'), var(--secondary-color);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .container {
+        align-items: flex-end;
+        flex-direction: row;
+        gap: 1.5em;
+    }
+    .imgs-section {
+        padding: 2em;
+    }
+    .about-section {
+        padding: 2em 2.5em;
+        width: 600px;
+    }
+    .about-section p {
+        text-align: left;
+    }
+    #gb-used {
+        bottom: 100%;
+        left: 40%;
+        transform: translate(50%, 30%);
+    }
+    #gb-used::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-width: 0 33px 33px 0;
+        border-color: transparent var(--color-text) transparent transparent;
+        border-style: solid;
+        right: 0;
+        top: 80%;
+    }
+    #total-numbers-gb {
+        padding-bottom: 0;
+    }
+}
