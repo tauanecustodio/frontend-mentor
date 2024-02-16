@@ -17,3 +17,5 @@ Projetos utilizando HTML e CSS feitos a partir dos desafios do [Frontend Mentor]
 13. [Social Links Profile](social-links-profile)
 14. [Recipe Page](recipe-page)
 15. [Huddle Landing Page](huddle-landing-page)
+16. [Testimonials Grid Section](testimonials-grid-section)
+17. [Fylo Data Storage Component](fylo-data-storage-component)
