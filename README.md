@@ -1,7 +1,6 @@
 # Frontend Mentor
 Projetos utilizando HTML e CSS feitos a partir dos desafios do [Frontend Mentor](https://www.frontendmentor.io/home)
 
-## 🌐 Projetos - HTML e CSS
 1. [Results Summary Component](results_summary_component)
 2. [Product Preview Card](product_preview_card)
 3. [Qr Code Comonent](qr_code_component)
