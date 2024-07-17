@@ -18,3 +18,8 @@ Projetos utilizando HTML e CSS feitos a partir dos desafios do [Frontend Mentor]
 15. [Huddle Landing Page](huddle-landing-page)
 16. [Testimonials Grid Section](testimonials-grid-section)
 17. [Fylo Data Storage Component](fylo-data-storage-component)
+18. [Clipboard Landing Page Master](clipboard-landing-page-master/)
+19. [Hudlle Landing Page With Alternating Feature](huddle-landing-page-with-alternating-feature/)
+20. [Fylo Landing Page With Two Column](fylo-landing-page-with-two-column/)
+21. [Huddle Landing Page With Curved Section](huddle-landing-page-with-curved-section/)
+22. [Chat App Css Ilustration Master](chat-app-css-illustration-master/)
