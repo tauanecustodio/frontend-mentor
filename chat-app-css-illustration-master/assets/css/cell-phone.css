@@ -1,0 +1,190 @@
+/* main */
+
+.main__illustration {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* container  */
+
+.main__cell-phone {
+    border: 0.6rem solid var(--color-white);
+    background-color: var(--color-app-background);
+    border-radius: 2rem;
+    position: relative;
+    max-width: 16rem;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.main__cell-phone::before {
+    content: "";
+    width: 50%;
+    height: 25px;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-white);
+    border-radius: 0 0 1rem 1rem;
+}
+
+/* header  */
+
+.cell-phone__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    color: var(--color-white);
+    background: linear-gradient(to left, var(--gradient-color-1), var(--gradient-color-2));
+    border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
+    padding: 1.9rem 0.9rem 0.7rem 0.9rem;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.cell-phone__header i {
+    font-size: 0.6rem;
+    color: var(--color-white);
+}
+
+.cell-phone__header > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.cell-phone__header img {
+    width: 1.7rem;
+    height: auto;
+    border-radius: 50%;
+    border: 0.1rem solid var(--color-white);
+}
+
+.user-info__name {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+.user-info__status {
+    font-size: 0.5rem;
+    letter-spacing: 0.03rem;
+    color: var(--color-subheading);
+}
+
+/* messages */
+
+.cell-phone__messages {
+    padding: 0.7rem 0.7rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.message__received, .message__sent {
+    font-size: 0.55rem;
+    line-height: 1.4;
+    max-width: 65%;
+    background-color: white;
+    padding: 0.4rem 0.5rem;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.message__received {
+    color: var(--color-chat-left);
+    background-color: var(--color-message-background);
+    border-radius: 0.6rem 0.6rem 0.6rem 0.2rem;
+}
+
+.message__sent {
+    color: var(--color-chat-right);
+    align-self: flex-end;
+    border-radius: 0.5rem 0.5rem 0.2rem 0.5rem;
+}
+
+.images__sent {
+    max-width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    align-self: flex-end;
+}
+
+.images__sent img {
+    width: 2.8rem;
+    border-radius: 0.8rem;
+}
+
+.budget-received {
+    background: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 70%;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.3rem;
+    color: var(--color-white);
+}
+
+.budget-received div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.budget-received__check {
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 0.1rem solid var(--color-white);
+    opacity: 0.2;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+
+.budget-received__item {
+    font-size: 0.55rem;
+}
+
+.budget-received__price {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+ 
+/* sent message */
+
+.cell-phone__form-sent {
+    background-color: var(--color-white);
+    margin: 0.7rem;
+    border-radius: 5rem;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-sent__input {
+    flex: 1;
+    border-radius: 4rem;
+    border: none;
+    background-color: transparent;
+    padding-left: 0.5rem;
+}
+
+.form-sent__input::placeholder {
+    color: var(--color-placeholder);
+    font-size: 0.7rem;
+}
+
+.form-sent__button {
+    min-width: 1.6rem;
+    min-height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-radius: 50%;
+    background-color: var(--color-submit-button);
+    color: var(--color-white);
+}

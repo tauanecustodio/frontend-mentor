@@ -1,0 +1,32 @@
+@media (min-width: 900px) {
+    .main {
+        flex-direction: row;
+        gap: 0;
+    }
+    .main::before {
+        width: 40%;
+        height: 80%;
+        transform: translateX(-30%);
+    }
+    
+    .main::after {
+        width: 40%;
+        height: 80%;
+        transform: translateX(30%);
+    }
+
+    .main__illustration {
+        padding: 0 !important;
+        width: 30%;
+    }
+
+    .main__content {
+        width: 40%;
+        text-align: left;
+        align-self: center;
+        padding: 0 2rem !important;
+    }
+    .main__description {
+        max-width: 490px;
+    }
+}

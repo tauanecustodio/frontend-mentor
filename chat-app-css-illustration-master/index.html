@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/cell-phone.css">
+  <link rel="stylesheet" href="assets/css/content.css">
+  <link rel="stylesheet" href="assets/css/media-query.css">
+  <!-- icones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Chat App Css Ilustration</title>
+</head>
+<body>
+  <main class="main">
+    <section class="main__illustration">
+      <div class="main__cell-phone">
+        <div class="cell-phone__header">
+          <div>
+            <i class="fa-solid fa-chevron-left"></i>
+            <img class="avatar" src="assets/images/avatar.jpg" alt="avatar">
+            <div class="user-info">
+              <h2 class="user-info__name">Samuel Green</h2>
+              <p class="user-info__status">Available to Walk</p>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+
+        <div class="cell-phone__messages">
+          <p class="message__received">That sounds great. I’d be happy with that.</p>
+          <p class="message__received">Could you send over some pictures of your dog, please? </p>
+
+          <div class="images__sent">
+            <img src="assets/images/dog-image-1.jpg" alt="dog image">
+            <img src="assets/images/dog-image-2.jpg" alt="dog image">
+            <img src="assets/images/dog-image-3.jpg" alt="dog image">
+          </div>
+          <p class="message__sent">Here are a few pictures. She’s a happy girl!</p>
+          <p class="message__sent">Can you make it?</p>
+
+          <p class="message__received">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+
+          <div class="budget-received">
+            <div>
+              <span class="budget-received__check"></span>
+              <label class="budget-received__item">30 minute walk</label>
+            </div>
+            <span class="budget-received__price">$29</span>
+          </div>
+          <div class="budget-received">
+            <div>
+              <span class="budget-received__check"></span>
+              <label class="budget-received__item">1 hour walk</label>
+            </div>
+            <span class="budget-received__price">$49</span>
+          </div>
+        </div>
+
+        <div class="cell-phone__form-sent">
+          <input class="form-sent__input" type="text" placeholder="Type a message…" disabled>
+          <button class="form-sent__button" disabled>
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="main__content">
+      <h1 class="main__title">Simple booking</h1>
+      <p class="main__description">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+    </section>
+  </main>
+</body>
+</html>
